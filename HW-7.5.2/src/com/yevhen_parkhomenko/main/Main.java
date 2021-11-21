@@ -33,7 +33,7 @@ public class Main {
         e6.setTheme("+2");
 
         EmailSender es = new EmailSender();
-        ILog log = new ConsoleLog();
+        ILog log = new Log();
         es.send(e1, log);
         es.send(e2, log);
         es.send(e3, log);
